@@ -3,18 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 html {
     font-size: 62.25%;
     scroll-behavior: smooth;
-
-    
 } 
-
 body {
     font-family: "Poppins", sans-serif;
 }
-
 header {
     display: flex;
     flex-wrap: wrap;
@@ -23,30 +18,23 @@ header {
     background-color: 	#ffffff;
     padding: 0.1rem 0.1rem;
 }
-
 header img {
     display: flex;
     width: 12rem;
 }
-
 header nav {
     display: flex;
     gap: 2rem;
-    
-    
 }
-
 header nav a {
     color: #1C1C1C;
     text-decoration: none;
     font-size: 2.5rem;
     transition: color 0.5s;
 }
-
 header nav a:hover {
     color: #af2727;
 }
-
 #button {
     background-color: #90EE90;
     border: none;
@@ -60,7 +48,6 @@ header nav a:hover {
     cursor: pointer;
     transition: background 0.2s;
 }
-
 .hero {
     display: flex;
     flex-direction: column;
@@ -74,7 +61,6 @@ header nav a:hover {
     opacity: 1;
     box-shadow: #000000;
 }
-
 #hero-title h1 {
     font-size: 10rem;
     opacity: 200;
@@ -82,12 +68,10 @@ header nav a:hover {
     color: #ffffff;
     font-family: "Berkshire Swash", sans-serif;
 }
-
 #hero-sub-title p {
     font-size: 4rem;
     color: #ffffff;
 }
-
 .cardapio h2{
     display: flex;
     justify-content: center;
@@ -98,17 +82,13 @@ header nav a:hover {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
 }
-
 .cardapio h2 {
    text-align: center;
    font-size: 4rem;
 } 
-
 .container-full{
     background-color: #ffffff;
-
 }
-
 .container-cards {
     display: flex;
     flex-direction: row;
@@ -116,31 +96,20 @@ header nav a:hover {
     justify-content: center;
     align-items: center;
     gap: 3rem;
-    border-radius: 1rem;
-    
-    
-    
+    border-radius: 1rem;   
 }
-
 .card {
     display: flex;
     flex-direction: column;
     border-radius: 0.625rem;
     overflow: auto;
-
-    
-
 }
-
 .card img {
     width: 30rem;
     height: 30rem;
     object-fit: cover;
     object-position: center;
-
-
 }
-
 .text {
     display: flex;
     justify-content: center;
@@ -150,22 +119,17 @@ header nav a:hover {
     transition: background 0.2s;
     cursor: pointer;
 }
-
 .text:hover {
     background: #eb4444;
-
 }
 .text p {
     font-size: 2rem;
     color: #ffffff;   
 }
-
 .contact {
     background-color: #ffffff; 
-    padding: 3rem;
-    
+    padding: 3rem;  
 }
-
 .contact-title h2 {
     font-family: "Poppins", sans-serif;
     font-weight: 600;   
@@ -173,14 +137,12 @@ header nav a:hover {
     font-size: 4rem;
     color: #000000; 
 }
-
 .contact-sub-title {
     text-align: center;
     font-size: 3rem;
     color: #000000;
     padding: 2rem;
 }
-
 .contact-info {
     display: flex; 
     justify-content: center;
@@ -188,21 +150,17 @@ header nav a:hover {
     font-size: 1.6rem;
     color: #000000; 
 }
-
 .media-title {
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
-
 .media-img {
     display: flex;
     flex-direction: row;
     gap: 0.5rem;
     cursor: pointer;
 }
-
 .img-delivery {
     display: flex;
     justify-content: center;
@@ -215,7 +173,6 @@ footer {
     text-align: center;
     padding: 1rem;
 }
-
 .footer-content {
     font-size: 1.3rem;
     max-width: 800px;
